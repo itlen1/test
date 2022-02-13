@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <form class="todo_control">
+            <label >
+                <input class="header-input" type="text" placeholder="Какие планы?">
+            </label>
+            <button class="header-button"></button>
+        </form>
+    </header>
+    
+    <div class="todo-container">
+        <ul class="todo">
+        <ul class="todo todo-list" id="todo">
+            <li class="todo-item">
+                <span class="text-todo">Выпить кофе</span>
+                <div class="todo-buttons">
+                    <button class="todo-remove"></buton>
+                    <button class="todo-complete"></buton>
+                </div>
+            </li>
+        </ul>
+        <ul class="todo todo-completed" id="todo-completed">
+            <li class="todo-item">
+                <span class="text-todo">Сварить кофе</span>
+                <div class="todo-buttons">
+                    <button class="todo-remove"></buton>
+                    <button class="todo-complete"></buton>
+                </div>
+            </li>
+        </ul>
+        </ul>
+        
+    </div>
+<script src="script.js"></script>    
+</body>
+</html>
